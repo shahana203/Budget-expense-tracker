@@ -14,7 +14,7 @@ const app = express(); // Make Express app
 
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"] ,// Your frontend URL
+  origin: ["https://budget-expense-tracker-ten.vercel.app/"] ,// Your frontend URL
   credentials: true                // Allow cookies/auth
 }));
 
