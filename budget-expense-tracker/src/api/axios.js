@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://budget-expense-tracker-1.onrender.com"
 });
 
 // This function runs before every request and attaches your token (if you have one)

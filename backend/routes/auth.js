@@ -7,7 +7,7 @@ const verifyToken = require('../middleware/authMiddleware');
 
 const router = express.Router(); // Create a router object for auth routes
 
-const JWT_SECRET = 'your_secret_key_change_this'; // Secret key for signing tokens
+const JWT_SECRET = 'your_secret_key_change_this';
 
 // ============================================
 // ROUTE 1: Sign Up (Create a new user account)
