@@ -19,7 +19,7 @@ const app = express(); // Make Express app
 // }));
 
 const allowedOrigins = [
-  'https://budget-expense-tracker-git-main-shahana203s-projects.vercel.app'
+  'https://budget-expense-tracker-ten.vercel.app/'
 ];
 
 app.use(cors({
