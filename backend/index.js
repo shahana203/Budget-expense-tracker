@@ -12,10 +12,19 @@ const app = express(); // Make Express app
 
 
 
-app.use(express.json());
+// app.use(express.json());
+// app.use(cors({
+//   origin: ["https://budget-expense-tracker-ten.vercel.app/auth"] ,// Your frontend URL
+//   credentials: true                // Allow cookies/auth
+// }));
+
+const allowedOrigins = [
+  'https://budget-expense-tracker-git-main-shahana203s-projects.vercel.app'
+];
+
 app.use(cors({
-  origin: ["https://budget-expense-tracker-ten.vercel.app/auth"] ,// Your frontend URL
-  credentials: true                // Allow cookies/auth
+  origin: allowedOrigins,
+  credentials: true // if using cookies or authentication headers
 }));
 
 // Simple test route

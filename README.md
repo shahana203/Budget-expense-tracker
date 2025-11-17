@@ -17,7 +17,7 @@ cd backend && npm install && npm start
 cd frontend && npm install && npm start
 
 ### Front-end URL 
-https://budget-expense-tracker-ten.vercel.app/
+https://budget-expense-tracker-ten.vercel.app/auth
 
 
 ### Backend URL
