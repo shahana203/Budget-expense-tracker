@@ -29,8 +29,6 @@ function App() {
             <Route path="/category" element={<Categories />} />
             <Route path="/expenses" element={<ExpenseHistory />} />
             <Route path="/report" element={<MonthlyReport />} />
-            <Route index element={<BudgetsPage />} />
-            <Route path="*" element={<Navigate to="/dashboard" />} />
           </Routes>
         </main>
         <BottomNav />
